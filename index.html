@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Javascript Logic</title>
+   <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div id="result-container">
+      <p id="result">Result Here</p>
+      <button id="okbtn">Ok</button>
+   </div>
+   
+   <div class="container">
+      <div class="inputs">
+         <label for="value">Enter your age</label>
+         <input type="text" id="value" placeholder="Enter your age">
+
+         <label for="citizen">Are you a citizen of a foreign country?</label>
+         <select id="citizen">
+            <option value="">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+         </select>
+
+         <label for="register">You have registered on this portal</label>
+         <select id="register">
+            <option value="" selected>Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+         </select>
+         <button id="btn">Submit</button>
+      </div>
+      <div id="loader">
+         <p>Wait for response...</p>
+         <img src="Gear@1x-0.2s-200px-200px.gif" id="gif" alt="">
+      </div>
+   </div>
+
+<script src="app.js"></script>
+</body>
+</html>
